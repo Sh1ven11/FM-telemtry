@@ -16,7 +16,7 @@ const firebaseConfig = {
   const database = getDatabase(app);
   
   // Fetch data from Firebase
-  const telemetryRef = ref(database, 'telemetry');
+  const telemetryRef = ref(database,'telemetry');
   
   // Update the webpage when data changes
   onValue(telemetryRef, (snapshot) => {
