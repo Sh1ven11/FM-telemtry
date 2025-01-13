@@ -2,6 +2,7 @@
 const firebaseConfig = {
     apiKey: "AIzaSyAeUcMxHuVZli2weXqtbcQXkvkwMTa6mDw",
     authDomain: "fm-telemetry.firebaseapp.com",
+    databaseURL: "https://fm-telemetry-default-rtdb.asia-southeast1.firebasedatabase.app/", // Updated URL
     projectId: "fm-telemetry",
     storageBucket: "fm-telemetry.firebasestorage.app",
     messagingSenderId: "444751062752",
